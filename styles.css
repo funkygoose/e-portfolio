@@ -25,6 +25,18 @@ section {
    background-color: rgb(245, 245, 245);
 }
 
+.click {
+   transition: 200ms;
+}
+
+.click:hover {
+   transform: scale(1.1);
+}
+
+.click:active {
+   transform: scale(0.8);
+}
+
 .title {
    font-size: 120px;
    margin-bottom: 12px;
