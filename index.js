@@ -1,6 +1,6 @@
-// template_2zgb05j
-// service_mbzxseb
-// ZMNjtS8M82GCX2i5s
+// 
+// 
+// 
 
 function contact(event) {
    event.preventDefault();
@@ -14,10 +14,12 @@ function contact(event) {
       'template_2zgb05j'
       event.target,
       'ZMNjtS8M82GCX2i5s'
-   ).then(() => {
+   )
+   .then(() => {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";
-   }).catch(() => {
+   })
+   .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
          "The email service is temporarily unavailable. Please contact me at 'uriel1119@gmail.com' "
@@ -25,3 +27,12 @@ function contact(event) {
    })
 }
 
+let isModalOpen = false;
+function toggleModal() {
+  if (isModalOpen) {
+     isModalOpen = false;
+     return document.body.classList.remove("modal--open");
+  }
+   isModalOpen = true;
+   document.body.classList += " modal--open"
+}
