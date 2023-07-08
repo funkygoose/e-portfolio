@@ -24,7 +24,7 @@ function contact(event) {
       alert(
          "The email service is temporarily unavailable. Please contact me at 'uriel1119@gmail.com' "
       );
-   })
+   });
 }
 
 let isModalOpen = false;
