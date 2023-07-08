@@ -10,8 +10,8 @@ function contact(event) {
    emailjs
    
    .sendForm(
-      'service_mbzxseb'
-      'template_2zgb05j'
+      'service_mbzxseb',
+      'template_2zgb05j',
       event.target,
       'ZMNjtS8M82GCX2i5s'
    )
