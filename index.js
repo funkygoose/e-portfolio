@@ -10,8 +10,8 @@ function contact(event) {
    emailjs
    
    .sendForm(
-      'service_mbzxseb',
-      'template_2zgb05j',
+      'service_eyge4px',
+      'template_95g47l7',
       event.target,
       'ZMNjtS8M82GCX2i5s'
    )
@@ -22,7 +22,7 @@ function contact(event) {
    .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
-         "The email service is temporarily unavailable. Please contact me at 'uriel1119@gmail.com' "
+         "The email service is temporarily unavailable. Please contact me directly on 'uriel1119@gmail.com' "
       );
    });
 }
