@@ -22,7 +22,7 @@
          <figure>
             <img id="personal-logo" src="./assets/urielbanuelos.svg" alt="">
          </figure>
-         <ul class="nav__link--list">
+         <ul class="nav__link--list" onclick="toggleModal()">
             <li class="nav__link">
                <a href="#" class="
                nav__link--anchor
@@ -31,13 +31,13 @@
                ">About</a>
             </li>
             <li class="nav__link">
-               <a href="#" class="
+               <a href="#projects" class="
                nav__link--anchor
                link__hover-effect
                link__hover-effect--black
                ">Projects</a>
             </li>
-            <li class="nav__link">
+            <li class="nav__link" onclick="toggleModal()">
                <a href="#" class="
                nav__link--anchor
                link__hover-effect
@@ -77,9 +77,11 @@
             </div>
          </div>
       </header>
-      <button class="mail__btn click" onclick="toggleModal()">
-         <i class="fa-solid fa-envelope"></i>
-      </button>
+      <a href="#">
+         <button class="mail__btn click" onclick="toggleModal()">
+            <i class="fa-solid fa-envelope"></i>
+         </button>
+      </a>
       <a href="#projects" class="scroll">
          <div class="scroll__icon click"></div>
       </a>
@@ -215,33 +217,33 @@
                <!-- <img class="footer__logo--img" src="./assets/urielbanuelos.svg" alt=""> -->
             </figure>
             <div class="footer__social--list">
-               <a href="#" class="
+               <a href="#" target="_blank" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
             ">
                   Github
                </a>
-               <a href="#" class="
+               <a href="#" target="_blank" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
             ">
                   LinkenIn
                </a>
-               <a href="#" class="
+               <a href="#" onclick="toggleModal()" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+            ">
+                  Contact
+               </a>
+               <a href="./assets/example.pdf" target="_blank" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
             ">
                   Resume
-               </a>
-               <a href="#" class="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white
-            ">
-                  Email
                </a>
             </div>
             <div class="footer__copyright">Copyright © 2022 Uriel Banuelos</div>
