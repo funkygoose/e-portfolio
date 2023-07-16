@@ -310,12 +310,14 @@ nav {
 }
 
 .fa-solid {
-  font-size: 18px;
-  padding-left: 4px;
+  font-size: 20px;
 }
 
 .fa-envelope {
   font-size: 32px;
+}
+.fa-file-pdf {
+  padding-left: 4px;
 }
 
 /*
