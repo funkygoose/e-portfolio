@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Uriel Banuelos</title>
    <link rel="stylesheet" href="style.css">
+   <!-- <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"> -->
    <script src="https://kit.fontawesome.com/de3594b78a.js" crossorigin="anonymous"></script>
    <script src="index.js"></script>
    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
@@ -91,7 +92,7 @@
             <h3 class="modal__title">Here's a bit about me.</h3>
             <h4 class="modal__sub-title modal__sub-title--about">Junior Frontend Developer</h4>
             <p class="modal__para">
-               I'm a 26 year-old <b class="blue"> Junior Frontend Developer</b> with a strong passion
+               I'm a 27 year-old <b class="blue"> Junior Frontend Developer</b> with a strong passion
                for developing websites with <b class="blue">great user experiences.</b>
                <br>
                I'm currently working on difficult Frontend projects to expand my skillset and eventually have the opportunity to be
@@ -139,15 +140,15 @@
             <form id="contact__form" onsubmit="contact(event)">
                <div class="form__item">
                   <label class="form__item--label">Name</label>
-                  <input class="input" name="user_name" type="text"></input>
+                  <input class="input" name="user_name" type="text"  required></input>
                </div>
                <div class="form__item">
                   <label class="form__item--label">Email</label>
-                  <input class="input" name="user_email" type="email"></input>
+                  <input class="input" name="user_email" type="email" required></input>
                </div>
                <div class="form__item">
                   <label class="form__item--label">Message</label>
-                  <textarea class="input" name="message" type="text"></textarea>
+                  <textarea class="input" name="message" type="text" required></textarea>
                </div>
                <button id="contact__submit" class="form__submit"> Send it my way!
                </button>

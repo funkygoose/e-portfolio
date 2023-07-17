@@ -17,7 +17,7 @@ li {
 
 p {
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
@@ -39,7 +39,7 @@ textarea {
   background-color: #242424;
   color: #fff;
   outline: none;
-  border: 1px solid #c0c4cc;
+  border: 3px solid #c0c4cc;
   border-top: none;
   border-left: none;
   border-right: none;
