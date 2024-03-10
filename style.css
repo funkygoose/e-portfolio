@@ -203,6 +203,7 @@ LANDING PAGE
   width: 100%;
   max-width: 1000px;
   padding: 0 30px;
+
 }
 
 .header__para {
@@ -295,7 +296,10 @@ nav {
   margin: 0 auto;
   padding: 0 20px;
   height: 100px;
+  
 }
+
+.nav__main
 
 #personal-logo {
   width: 50px;
@@ -743,5 +747,11 @@ footer {
   }
   .modal__half {
     padding: 40px;
+  }
+  .project__description--title {
+    font-size: 20px;
+  }
+  .project__description--sub-title {
+    font-size: 14px;
   }
 }
