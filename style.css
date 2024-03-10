@@ -544,11 +544,15 @@ nav {
 .project__wrapper:hover .project__description {
   opacity: 1;
   transform: translateY(-50%);
+  outline: none;
+  user-select: none;
 }
 
 .project__wrapper:hover .project__img {
   transform: scale(1.2);
   filter: blur(5px);
+  outline: none;
+  user-select: none;
 }
 
 .project__description {
