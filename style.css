@@ -517,6 +517,14 @@ nav {
 
 */
 
+.carousel {
+  
+}
+
+.project__carousel{
+
+}
+
 .section__title {
   text-align: center;
   font-size: 48px;
@@ -531,6 +539,7 @@ nav {
   transition: all 600ms ease;
   transform: scale(1.03)
 }
+
 
 .project__wrapper {
   position: relative;

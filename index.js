@@ -57,4 +57,31 @@ function toggleModal() {
   document.body.classList += " modal--open";
 }
 
+//OWL CAROUSEL
+
+const carousel = document.getElementById('carousel');
+const slides = carousel.querySelectorAll('.slide');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+
+let currentSlide = 0;
+
+function nextSlide() {
+  currentSlide++;
+  if (currentSlide === slides.length) {
+    currentSlide = 0;
+  }
+  carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+function prevSlide() {
+  currentSlide--;
+  if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
+  }
+  carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+nextBtn.addEventListener('click', nextSlide);
+prevBtn.addEventListener('click', prevSlide);
 
