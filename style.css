@@ -716,9 +716,27 @@ footer {
 
   }
   .project__description{
-    padding-right: ;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+  }
+  .project__description--title {
+    font-size: 25px;
+  }
+  .project__description--sub-title {
+    font-size: 14px;
+  }
+  .project__description--para {
+    font-size: 14px;
+  }
+  .section__title {
+    font-size: 30px;
   }
 }
+
+
 
 /* Small Phones */
 
@@ -753,5 +771,8 @@ footer {
   }
   .project__description--sub-title {
     font-size: 14px;
+  }
+  .section__title {
+    font-size: 30px;
   }
 }
